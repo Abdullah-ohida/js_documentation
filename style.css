@@ -14,7 +14,7 @@
  
  .documentation {
      background: #ffffff;
-     width: 30%;
+     width: 25%;
      min-height: 100vh;
      padding: 1em 0;
      word-wrap: break-word;
@@ -60,7 +60,7 @@
  
  .main-frame {
      background: #ffffff;
-     width: 70%;
+     width: 75%;
      min-height: 100vh;
      padding: 1em 2em;
      overflow: scroll;
