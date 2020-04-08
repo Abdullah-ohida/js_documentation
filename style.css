@@ -1,0 +1,145 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+ 
+ .container {
+     width: 100%;
+     min-height: 100vh;
+     background-color: rgb(224, 221, 221);
+     display: flex;
+ }
+ 
+ .documentation {
+     background: #ffffff;
+     width: 30%;
+     min-height: 100vh;
+     padding: 1em 0;
+     word-wrap: break-word;
+     border-right: 4px solid rgb(126, 122, 122);
+     overflow: scroll;
+     overflow-x: hidden;
+     height: 20em;
+     line-height: 2em;
+ }
+ 
+ .documentation h2 {
+     font-family: 'Open Sans', sans-serif;
+     text-align: left;
+     font-weight: lighter;
+     font-size: 25px;
+     text-align: center;
+ }
+ 
+ .documentation div {
+     background: #ffffff;
+ }
+ 
+ .documentation ul {
+     margin: 2em auto 0;
+     padding-top: 0em .5em .5em .5em;
+ }
+ 
+ #first {
+     border-top: 1px solid rgb(145, 140, 140);
+ }
+ 
+ .documentation li {
+     padding: .3em .1em .3em 2em;
+     border-bottom: 1px solid rgb(153, 147, 147);
+     list-style: none;
+ }
+ 
+ .documentation li a {
+     font-size: 17px;
+     color: rgb(97, 93, 93);
+     text-decoration: none;
+ }
+ 
+ .main-frame {
+     background: #ffffff;
+     width: 70%;
+     min-height: 100vh;
+     padding: 1em 2em;
+     overflow: scroll;
+     overflow-x: hidden;
+     height: 20em;
+     line-height: 2em;
+ }
+ 
+ .main-frame h1 {
+     font-family: 'Open Sans', sans-serif;
+     font-size: 30px;
+     font-weight: lighter;
+     padding: .2em 0;
+     color: black;
+ }
+ 
+ .main-frame p {
+     padding: 1em 1.5em .5em 1.5em;
+     line-height: 23px;
+     font-size: 15px;
+     font-family: "Open Sans", Arial, sans-serif;
+     color: rgb(66, 65, 65);
+ }
+ 
+ .main-frame ul {
+     padding: 0em .5em .5em 5em;
+ }
+ 
+ .main-frame li {
+     padding: .6em 0;
+     line-height: 24px;
+     font-size: 15px;
+     color: rgb(66, 65, 65);
+     font-family: "Open Sans", Arial, sans-serif;
+ }
+ 
+ .inner {
+     background: rgba(230, 226, 226, 0.5);
+     padding: .1em 1em .6em 1em;
+     margin: 0em 1em .5em 2.5em;
+     border-radius: 3px;
+ }
+ 
+ .inner p {
+     width: 80%;
+     font-size: 13px;
+     font-family: "Open Sans", Arial, sans-serif;
+ }
+ 
+ .var p {
+     padding: 1em .5em .5em .5em;
+ }
+ 
+ .declear p {
+     padding-bottom: .2em;
+ }
+ 
+ .datatype .inside li {
+     list-style: circle;
+ }
+ 
+ @media screen and (max-width: 1000px) {
+     .container {
+         display: inline;
+         overflow: hidden;
+     }
+     .main-frame {
+         width: 100%;
+         overflow: scroll;
+         overflow-x: none;
+         height: 20em;
+         line-height: 2em;
+     }
+     .documentation {
+         background: #ffffff;
+         width: 100%;
+         overflow: none;
+         overflow-x: hidden;
+         height: 2em;
+         line-height: 2.5em;
+     }
+ }
